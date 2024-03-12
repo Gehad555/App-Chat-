@@ -61,8 +61,9 @@ socket.on("message", (data) => {
   }
   document.querySelector(".chat-display").appendChild(li);
 
-  chatDisplay.scrollTop = chatDisplay.scrollHeight;
-});
+ requestAnimationFrame(() => {
+   chatDisplay.scrollTop = chatDisplay.scrollHeight;
+ });});
 
 let activityTimer;
 socket.on("activity", (name) => {
