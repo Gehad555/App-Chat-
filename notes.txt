@@ -1,3 +1,1 @@
-https  ://cdnjs.com/libraries/socket.io 
-server :https://app-chat-24cj.onrender.com
-
+https://cdnjs.com/libraries/socket.io
