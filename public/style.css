@@ -5,18 +5,19 @@
     font-size: 1.1rem;
     font-family: Arial, Helvetica, sans-serif;
   }
-   
+  
+  
   body {
     color: #e3dddd;
     background-color: rgb(240, 240, 206);
   }
-  h1 {
+  h1{
     padding: 20px;
     font-size: 3rem;
     text-align: center;
-    color: #e5840e;
+    color:#e5840e;
+  
   }
-   
   .form-join {
     width: 100%;
     background-color: #0d1117;
@@ -27,14 +28,15 @@
     justify-content: space-around;
     gap: 10px;
   }
-   
-  .container {
+  
+  .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
-   
+  
+  
   section {
     position: relative;
     width: 95%;
@@ -42,7 +44,7 @@
     margin: 0 auto;
     height: 70vh;
   }
-   
+  
   .form-join input {
     background-color: #e5840e;
     border: none;
@@ -62,11 +64,11 @@
     color: black;
     text-align: center;
   }
-   
+  
   .form-join input:focus {
     background-color: white;
   }
-   
+  
   button {
     outline: none;
     border: none;
@@ -85,7 +87,7 @@
   button:hover {
     background-color: #e5840e;
   }
-   
+  
   .chat-display {
     list-style-type: none;
     width: 100%;
@@ -105,7 +107,7 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
   }
-   
+  
   .chat-display ul {
     overflow: scroll;
   }
@@ -119,7 +121,7 @@
     -o-border-radius: 10px;
     background-color: #e5840e;
   }
-   
+  
   .post--left {
     margin-left: 3rem;
     background-color: #eecd7b;
@@ -130,13 +132,13 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
   }
-   
+  
   .post--right {
     margin-right: 4rem;
     background-color: #eecd7b;
     border-radius: 20px;
   }
-   
+  
   .post__header {
     padding: 0.5rem;
     display: flex;
@@ -144,17 +146,17 @@
     align-items: center;
     gap: 0.5rem;
   }
-   
+  
   .post__header--name {
     font-weight: bold;
     color: #000;
   }
-   
+  
   .post__header--time {
     font-size: 0.8rem;
     color: #000;
   }
-   
+  
   .post__text {
     margin-top: 5px;
     background-color: #e5840e;
@@ -169,7 +171,7 @@
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
   }
-   
+  
   .room {
     position: fixed;
     margin-left: 100px;
@@ -184,11 +186,11 @@
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
   }
-   
+  
   .activity {
     font-style: italic;
   }
-   
+  
   .form-msg {
     width: 43%;
     position: absolute;
